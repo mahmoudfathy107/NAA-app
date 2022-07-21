@@ -57,35 +57,35 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::resource('NAA-Index', IndexController::class)->middleware('auth');
-Route::resource('NAA-Channels', ChannelController::class)->middleware('auth');
-Route::resource('NAA-Shows', ShowsController::class)->middleware('auth');
-Route::resource('NAA-Office', OfficeController::class)->middleware('auth');
-Route::resource('NAA-ContactUS', ContactusController::class)->middleware('auth');
-Route::resource('NAA-AboutUS', AboutusController::class)->middleware('auth');
-Route::resource('NAA-Donate', DonateController::class)->middleware('auth');
-Route::resource('NAA-Foundation', FoundationController::class)->middleware('auth');
-Route::resource('NAA-Founder', FounderController::class)->middleware('auth');
+Route::resource('NAA-Index', IndexController::class);
+Route::resource('NAA-Channels', ChannelController::class);
+Route::resource('NAA-Shows', ShowsController::class);
+Route::resource('NAA-Office', OfficeController::class);
+Route::resource('NAA-ContactUS', ContactusController::class);
+Route::resource('NAA-AboutUS', AboutusController::class);
+Route::resource('NAA-Donate', DonateController::class);
+Route::resource('NAA-Foundation', FoundationController::class);
+Route::resource('NAA-Founder', FounderController::class);
 
-Route::resource('NAA-Drama', DramaController::class)->middleware('auth');
-Route::resource('NAA-Fashion', FashionController::class)->middleware('auth');
-Route::resource('NAA-Fasion', FasionController::class)->middleware('auth');
-Route::resource('NAA-Poams', PoamsController::class)->middleware('auth');
-Route::resource('NAA-News', NewsController::class)->middleware('auth');
-Route::resource('NAA-Islamophobia', IslamophobiaController::class)->middleware('auth');
-Route::resource('NAA-Talents', TalentsController::class)->middleware('auth');
-Route::resource('NAA-Kids', kidsController::class)->middleware('auth');
+Route::resource('NAA-Drama', DramaController::class);
+Route::resource('NAA-Fashion', FashionController::class);
+Route::resource('NAA-Fasion', FasionController::class);
+Route::resource('NAA-Poams', PoamsController::class);
+Route::resource('NAA-News', NewsController::class);
+Route::resource('NAA-Islamophobia', IslamophobiaController::class);
+Route::resource('NAA-Talents', TalentsController::class);
+Route::resource('NAA-Kids', kidsController::class);
 
-Route::resource('NAA-ContactUsAll', kidsController::class)->middleware('auth');
+Route::resource('NAA-ContactUsAll', kidsController::class);
 
-Route::resource('NAA-acdmyResearch', acdmyResearchController::class)->middleware('auth');
-Route::resource('NAA-charity', charityController::class)->middleware('auth');
-Route::resource('NAA-phoghyStudio', phoghyStudioController::class)->middleware('auth');
-Route::resource('NAA-publishingHouse', publishingHouseController::class)->middleware('auth');
-Route::resource('NAA-read', readController::class)->middleware('auth');
-Route::resource('NAA-writer', writerController::class)->middleware('auth');
-Route::resource('NAA-solicioters', soliciotersController::class)->middleware('auth');
-Route::resource('NAA-elmeha', elmehaController::class)->middleware('auth');
+Route::resource('NAA-acdmyResearch', acdmyResearchController::class);
+Route::resource('NAA-charity', charityController::class);
+Route::resource('NAA-phoghyStudio', phoghyStudioController::class);
+Route::resource('NAA-publishingHouse', publishingHouseController::class);
+Route::resource('NAA-read', readController::class);
+Route::resource('NAA-writer', writerController::class);
+Route::resource('NAA-solicioters', soliciotersController::class);
+Route::resource('NAA-elmeha', elmehaController::class);
 
 
 Route::resource('NAA-alammwazy', alammwazyController::class);
