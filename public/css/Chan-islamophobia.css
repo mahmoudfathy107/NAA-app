@@ -1,0 +1,25 @@
+.para .container h2::before {
+  background-image: url("../assets/images/channels/islamophobiaHbg.webp"); }
+
+.para.ar ol {
+  direction: rtl; }
+
+.para ol {
+  padding: 3rem;
+  list-style: number; }
+  .para ol li {
+    margin-bottom: 2rem; }
+    .para ol li::marker {
+      font-size: 1.5rem; }
+    .para ol li p {
+      margin-bottom: 1rem !important; }
+      .para ol li p:first-child {
+        margin-bottom: 2rem !important; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-form .container .box {
+    top: 137px !important; } }
+
+.contact-form .container .box .form input.specBtn {
+  background-color: white !important; }
+/*# sourceMappingURL=Chan-islamophobia.css.map */

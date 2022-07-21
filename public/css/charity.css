@@ -1,0 +1,367 @@
+.charity-page .char_head {
+  margin: 10rem auto; }
+  .charity-page .char_head .txt {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    background-image: url("../assets/images/office_content/naa islamophopia area-01.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right; }
+    @media (min-width: 577px) {
+      .charity-page .char_head .txt {
+        padding: 6rem; } }
+    @media (min-width: 1200px) {
+      .charity-page .char_head .txt {
+        margin-left: 40%;
+        width: 40vw; } }
+    @media (min-width: 1200px) {
+      .charity-page .char_head .txt > * {
+        transform: translateX(-70px); } }
+    .charity-page .char_head .txt h2 {
+      margin-bottom: 1.7rem; }
+    .charity-page .char_head .txt a {
+      position: absolute;
+      bottom: 0%;
+      left: 50%;
+      transform: translate(-50%, 100%); }
+      .charity-page .char_head .txt a button {
+        background-color: var(--bg-clr); }
+        .charity-page .char_head .txt a button:hover {
+          background-color: white; }
+
+@media (min-width: 1900px) {
+  .charity-page .aims {
+    padding-top: 10rem; } }
+
+.charity-page .mission .missions {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4rem; }
+  @media (min-width: 1200px) {
+    .charity-page .mission .missions {
+      flex-direction: row; } }
+  .charity-page .mission .missions .msn {
+    flex: 1;
+    position: relative;
+    padding: 1.3rem 2.5rem 5rem;
+    border-bottom-right-radius: 0; }
+    .charity-page .mission .missions .msn h2 {
+      letter-spacing: 30px;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      margin-bottom: 2rem;
+      font-style: italic; }
+      @media (min-width: 577px) {
+        .charity-page .mission .missions .msn h2 {
+          transform: translateX(-50%); } }
+    .charity-page .mission .missions .msn:nth-child(1) {
+      border-top-right-radius: calc(min(30vw, 10rem)); }
+    .charity-page .mission .missions .msn:nth-child(2) {
+      border-bottom-right-radius: calc( min(30vw, 10rem)); }
+    .charity-page .mission .missions .msn:nth-child(3) {
+      border-top-left-radius: calc(min(30vw, 10rem)); }
+    .charity-page .mission .missions .msn a {
+      right: auto;
+      left: 20%; }
+      .charity-page .mission .missions .msn a button {
+        padding: 0.33rem 3rem; }
+
+.charity-page .also,
+.charity-page .honour {
+  margin: 8rem auto; }
+  .charity-page .also .swp,
+  .charity-page .honour .swp {
+    margin-top: 3rem; }
+    .charity-page .also .swp .sweeper .swiper .swiper-wrapper .swiper-slide img,
+    .charity-page .honour .swp .sweeper .swiper .swiper-wrapper .swiper-slide img {
+      aspect-ratio: 0.8;
+      -o-object-fit: contain;
+         object-fit: contain;
+      max-width: unset; }
+
+@media (max-width: 576px) {
+  .charity-page .foodBox {
+    padding-top: 2rem;
+    overflow: hidden; } }
+
+.charity-page section.events .eventsCont {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem; }
+  .charity-page section.events .eventsCont .event {
+    gap: calc(clamp(2rem, 2vw, 5rem)); }
+    @media (max-width: 991px) {
+      .charity-page section.events .eventsCont .event {
+        flex-direction: column-reverse; } }
+    .charity-page section.events .eventsCont .event:nth-child(even) {
+      flex-direction: row-reverse; }
+      .charity-page section.events .eventsCont .event:nth-child(even) .coloredTxtBox {
+        border-top-left-radius: calc(min(30vw, 10rem));
+        border-bottom-right-radius: unset;
+        padding-left: calc(min(15vw, 8rem)); }
+      @media (max-width: 991px) {
+        .charity-page section.events .eventsCont .event:nth-child(even) {
+          flex-direction: column-reverse; } }
+      .charity-page section.events .eventsCont .event:nth-child(even) .text {
+        border-top-left-radius: calc(min(30vw, 10rem));
+        border-bottom-right-radius: 0;
+        -webkit-animation: up-Down 1s ease-in-out infinite alternate;
+                animation: up-Down 1s ease-in-out infinite alternate; }
+        @media (min-width: 768px) {
+          .charity-page section.events .eventsCont .event:nth-child(even) .text {
+            padding-left: 8rem; } }
+        .charity-page section.events .eventsCont .event:nth-child(even) .text a {
+          right: 20%; }
+    .charity-page section.events .eventsCont .event .vid {
+      flex: 30%; }
+      .charity-page section.events .eventsCont .event .vid img {
+        display: block;
+        margin: auto; }
+
+.charity-page section.reviews .reviewsCont,
+.charity-page .aims .reviewsCont {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: calc(max(3vw, 3rem)); }
+  .charity-page section.reviews .reviewsCont .review,
+  .charity-page .aims .reviewsCont .review {
+    -webkit-animation: up-Down 1s ease-in-out infinite alternate;
+            animation: up-Down 1s ease-in-out infinite alternate;
+    padding: 2.5rem 1.5rem; }
+    .charity-page section.reviews .reviewsCont .review:nth-child(2),
+    .charity-page .aims .reviewsCont .review:nth-child(2) {
+      -webkit-animation-delay: 0.3s;
+              animation-delay: 0.3s; }
+    .charity-page section.reviews .reviewsCont .review:nth-child(3),
+    .charity-page .aims .reviewsCont .review:nth-child(3) {
+      -webkit-animation-delay: 0.6s;
+              animation-delay: 0.6s; }
+    .charity-page section.reviews .reviewsCont .review:nth-child(4),
+    .charity-page .aims .reviewsCont .review:nth-child(4) {
+      -webkit-animation-delay: 0.9s;
+              animation-delay: 0.9s; }
+    @media (min-width: 1200px) {
+      .charity-page section.reviews .reviewsCont .review,
+      .charity-page .aims .reviewsCont .review {
+        max-width: 70%; } }
+    .charity-page section.reviews .reviewsCont .review:nth-child(even),
+    .charity-page .aims .reviewsCont .review:nth-child(even) {
+      border-top-left-radius: calc(min(30vw, 10rem));
+      border-bottom-right-radius: 0; }
+      @media (min-width: 1200px) {
+        .charity-page section.reviews .reviewsCont .review:nth-child(even),
+        .charity-page .aims .reviewsCont .review:nth-child(even) {
+          align-self: flex-end; } }
+      @media (min-width: 768px) {
+        .charity-page section.reviews .reviewsCont .review:nth-child(even),
+        .charity-page .aims .reviewsCont .review:nth-child(even) {
+          padding-left: 8rem; } }
+      @media (max-width: 576px) {
+        .charity-page section.reviews .reviewsCont .review:nth-child(even),
+        .charity-page .aims .reviewsCont .review:nth-child(even) {
+          padding-left: 5rem; } }
+      .charity-page section.reviews .reviewsCont .review:nth-child(even) a,
+      .charity-page .aims .reviewsCont .review:nth-child(even) a {
+        right: 20%; }
+
+.charity-page section.dontMsgs .msgs {
+  background-image: url("../assets/images/donate/background-01.webp");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right bottom; }
+
+.charity-page .festiv {
+  min-height: 50vh;
+  background-image: url("../assets/images/office_content/choose right way-01.webp");
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+section {
+  margin: 5rem auto; }
+
+ul {
+  list-style: unset;
+  padding-left: 3rem; }
+
+section.reviews .swp .narrowSwiper img,
+section.dontMsgs .swp .narrowSwiper img {
+  max-width: unset !important;
+  aspect-ratio: 1;
+  width: calc(min(25vw, 300px));
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.withBg::before {
+  transform: translate(-45%, -29%) rotate(80deg); }
+
+.coloredTxtBox {
+  background-color: var(--bg-clr);
+  padding: 1.3rem 1.5rem 3rem;
+  border-bottom-right-radius: calc(min(30vw, 10rem));
+  box-shadow: -5px 10px 15px grey;
+  position: relative; }
+  .coloredTxtBox p.bold {
+    margin-bottom: 1rem; }
+  .coloredTxtBox a {
+    position: absolute;
+    bottom: 0;
+    right: 25%; }
+    @media (min-width: 577px) {
+      .coloredTxtBox a {
+        right: 60%; } }
+    .coloredTxtBox a button {
+      background-color: var(--alt-clr);
+      padding: 0.33rem 4rem;
+      border-radius: 40px 0;
+      box-shadow: -3px 5px 15px grey;
+      transform: translateY(50%); }
+      .coloredTxtBox a button:hover {
+        background-color: white;
+        filter: drop-shadow(0 0 10px var(--alt-clr)); }
+
+.withBg.pos2::before {
+  transform: translate(-45%, -40%) rotate(153deg); }
+
+body.arabic {
+  text-align: right; }
+  body.arabic ul {
+    padding-left: unset;
+    padding-right: 3rem; }
+  body.arabic .char_head .txt {
+    margin: auto;
+    background-position: center; }
+  body.arabic .foodBox .text,
+  body.arabic .aboutCha,
+  body.arabic section.events .eventsCont .event .text,
+  body.arabic .reviews .review,
+  body.arabic .reviews h2,
+  body.arabic .reviews p {
+    direction: rtl; }
+  body.arabic .foodBox .withBg::before {
+    transform: translate(15%, -25%) rotate(-210deg) !important; }
+  @media (min-width: 768px) {
+    body.arabic section.events .eventsCont .event:nth-child(odd) .coloredTxtBox {
+      padding-right: 8rem; } }
+  @media (min-width: 768px) {
+    body.arabic section.events .eventsCont .event:nth-child(even) .coloredTxtBox {
+      padding-right: 3rem; } }
+  @media (min-width: 768px) {
+    body.arabic .reviewsCont .review {
+      padding-right: 8rem !important; } }
+  body.arabic .mission .missions .msn h2 {
+    letter-spacing: 0ch; }
+
+.pubHead .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4vw;
+  position: relative; }
+  @media (max-width: 576px) {
+    .pubHead .content {
+      gap: 8vw;
+      flex-direction: column !important; } }
+  .pubHead .content .text {
+    flex-basis: 65%; }
+    .pubHead .content .text h2 {
+      font-size: 1.7rem;
+      margin-bottom: 3.5vh; }
+      @media (min-width: 1200px) {
+        .pubHead .content .text h2 {
+          font-size: 2.5rem; } }
+    .pubHead .content .text p:not(:last-child) {
+      margin-bottom: 2.5vh; }
+  .pubHead .content .poster {
+    flex-basis: 35%;
+    position: relative; }
+    @media (max-width: 576px) {
+      .pubHead .content .poster {
+        order: -1; } }
+    .pubHead .content .poster img {
+      border-radius: 100px 0;
+      filter: drop-shadow(4px 5px 10px grey);
+      -webkit-animation: up-Down 1.2s ease-in-out infinite alternate;
+              animation: up-Down 1.2s ease-in-out infinite alternate;
+      position: unset !important;
+      max-width: 100% !important; }
+      .pubHead .content .poster img:hover {
+        filter: drop-shadow(0 0.2rem 0.25rem var(--alt-clr));
+        transform: scale(1.1); }
+      @media (max-width: 576px) {
+        .pubHead .content .poster img {
+          max-width: 50vw !important; } }
+
+.pubSwiper {
+  overflow: unset; }
+  .pubSwiper .swiper-wrapper .swiper-slide {
+    height: unset !important;
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important; }
+  .pubSwiper .swiper-button-next-unique,
+  .pubSwiper .swiper-button-prev-unique {
+    position: absolute;
+    top: 50%;
+    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc( 0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color)); }
+  .pubSwiper .swiper-button-next-unique,
+  .pubSwiper .swiper-rtl .swiper-button-prev-unique,
+  .pubSwiper .swiper-button-prev-unique,
+  .pubSwiper .swiper-rtl .swiper-button-next-unique {
+    position: absolute;
+    top: 50%;
+    right: -30%;
+    transform: translate(-50%, -50%); }
+    @media (min-width: 1800px) {
+      .pubSwiper .swiper-button-next-unique,
+      .pubSwiper .swiper-rtl .swiper-button-prev-unique,
+      .pubSwiper .swiper-button-prev-unique,
+      .pubSwiper .swiper-rtl .swiper-button-next-unique {
+        right: -15%; } }
+  .pubSwiper .swiper-button-next-unique:after,
+  .pubSwiper .swiper-button-prev-unique:after {
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    color: var(--alt-clr); }
+  .pubSwiper .swiper-button-next-unique:after,
+  .pubSwiper .swiper-rtl .swiper-button-prev-unique:after {
+    content: "next"; }
+  .pubSwiper .swiper-button-prev-unique,
+  .pubSwiper .swiper-rtl .swiper-button-next-unique {
+    left: -20%;
+    right: auto; }
+    @media (min-width: 1800px) {
+      .pubSwiper .swiper-button-prev-unique,
+      .pubSwiper .swiper-rtl .swiper-button-next-unique {
+        left: -10%; } }
+  .pubSwiper .swiper-button-next-unique.swiper-button-disabled,
+  .pubSwiper .swiper-button-prev-unique.swiper-button-disabled {
+    opacity: 0.35;
+    cursor: auto;
+    pointer-events: none; }
+  .pubSwiper .swiper-button-prev-unique:after,
+  .pubSwiper .swiper-rtl .swiper-button-next-unique:after {
+    content: "prev"; }
+
+footer {
+  margin-top: 5rem; }
+/*# sourceMappingURL=charity.css.map */

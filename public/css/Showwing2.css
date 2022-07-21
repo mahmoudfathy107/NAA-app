@@ -1,0 +1,332 @@
+h2:not([data-text="welcome"]) {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  position: relative; }
+  h2:not([data-text="welcome"]):not(:first-of-type) {
+    margin-top: 3rem; }
+  h2:not([data-text="welcome"])::before {
+    content: "";
+    background-image: url("../assets/images/channels/newsHbg.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 50%;
+    z-index: -1;
+    transform: translate(-20px, -44%); }
+
+.swiper.narrowSwiper.swiper2 .swiper-wrapper img {
+  transition: 0.4s;
+  border-bottom-right-radius: 1rem;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: unset; }
+
+.sweeper .swiper {
+  padding-bottom: 30rem; }
+
+.box:not(:last-child) {
+  margin-bottom: 5rem; }
+
+.box .episodes {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  gap: 5rem; }
+  .box .episodes > * {
+    -ms-grid-column-align: center;
+        justify-self: center; }
+  .box .episodes .ep {
+    padding-bottom: 1.5rem;
+    position: relative; }
+    .box .episodes .ep .imgCover img:nth-child(2) {
+      position: absolute;
+      left: -3px;
+      bottom: 0;
+      max-width: 96%;
+      z-index: -1; }
+    .box .episodes .ep p {
+      padding-left: 0.5rem;
+      font-size: 0.8rem; }
+    .box .episodes .ep .btns {
+      bottom: unset;
+      transform: translate(30px, 4px); }
+      .box .episodes .ep .btns .specBtn {
+        background-color: #cf1319;
+        color: white; }
+    .box .episodes .ep img {
+      max-height: 25vh; }
+
+.box .teasers {
+  display: -ms-grid;
+  display: grid; }
+  @media (max-width: 576px) {
+    .box .teasers .tea {
+      flex-direction: column;
+      margin-bottom: 3.5rem; } }
+  @media (min-width: 1200px) {
+    .box .teasers .tea {
+      gap: 1rem; } }
+  .box .teasers .tea img {
+    max-width: 180px; }
+  .box .teasers .tea:nth-child(even) {
+    -ms-grid-row-align: end;
+    -ms-grid-column-align: end;
+    place-self: end;
+    direction: rtl; }
+  @media (min-width: 1200px) {
+    .box .teasers .tea {
+      width: 50%; }
+      .box .teasers .tea .txt {
+        position: relative;
+        padding-right: 1rem; } }
+    @media (min-width: 1200px) and (min-width: 992px) {
+      .box .teasers .tea .txt {
+        width: 40%; } }
+  @media (min-width: 1200px) {
+        .box .teasers .tea .txt::before {
+          content: "";
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          padding: 10rem 22rem;
+          top: 8%;
+          left: 86%;
+          transform: translate(-44%, -38%);
+          z-index: -1;
+          background-image: url("../assets/images/shows/typing area-01.webp");
+          background-size: contain;
+          background-repeat: no-repeat; } }
+      @media (min-width: 1200px) and (min-width: 1800px) {
+        .box .teasers .tea .txt::before {
+          transform: translate(-40%, -40%) scale(1.2); } }
+  @media (min-width: 1200px) {
+        .box .teasers .tea .txt.t2::before {
+          transform: translate(-72%, -8%) rotate(20deg) scale(1.2);
+          padding: 14rem; } }
+      @media (min-width: 1200px) and (min-width: 1800px) {
+        .box .teasers .tea .txt.t2::before {
+          transform: translate(-74%, -17%) rotate(20deg) scale(1.2); } }
+  @media (min-width: 1200px) {
+        .box .teasers .tea .txt.r1::before {
+          transform: translate(-89%, -35%) rotate(133deg) scale(1.3);
+          padding-right: 0; } }
+      @media (min-width: 1200px) and (min-width: 1800px) {
+        .box .teasers .tea .txt.r1::before {
+          transform: translate(-92%, -30%) rotate(133deg) scale(1.3); } }
+  @media (min-width: 1200px) {
+        .box .teasers .tea .txt.l1::before {
+          transform: translate(-68%, -25%) rotate(-55deg) scale(1.5);
+          padding: 10rem; } }
+      @media (min-width: 1200px) and (min-width: 1800px) {
+        .box .teasers .tea .txt.l1::before {
+          transform: translate(-61%, 10%) rotate(-36deg) scale(2); } }
+  @media (min-width: 1200px) {
+        .box .teasers .tea .txt h3 {
+          font-weight: bold;
+          margin-bottom: 1.1rem;
+          font-size: 1.5rem; }
+        .box .teasers .tea .txt p {
+          font-size: 1.3rem; } }
+  .box .teasers .tea .shelt-imgs {
+    display: flex;
+    width: 180px;
+    height: 250px;
+    position: relative; }
+    .box .teasers .tea .shelt-imgs img {
+      position: absolute;
+      top: 0; }
+      .box .teasers .tea .shelt-imgs img:nth-child(1) {
+        z-index: 4; }
+      .box .teasers .tea .shelt-imgs img:nth-child(2) {
+        left: 15%;
+        z-index: 3; }
+        @media (max-width: 1399px) {
+          .box .teasers .tea .shelt-imgs img:nth-child(2) {
+            left: 5px; } }
+      .box .teasers .tea .shelt-imgs img:nth-child(3) {
+        left: 30%;
+        z-index: 2; }
+        @media (max-width: 1399px) {
+          .box .teasers .tea .shelt-imgs img:nth-child(3) {
+            position: relative;
+            left: 10px; } }
+
+.btns.pp {
+  top: 117%;
+  font-size: 0.9rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative; }
+  .btns.pp p {
+    color: red; }
+
+.bg1 {
+  direction: rtl; }
+  .bg1 img {
+    position: absolute;
+    max-width: 130px;
+    transform: translateX(-6rem) rotate(35deg); }
+
+.bg2 img {
+  max-width: 130px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-12rem) scaleX(-1);
+  z-index: -99; }
+  @media (max-width: 576px) {
+    .bg2 img {
+      opacity: 0.7; } }
+
+body.arabic .bg1 {
+  direction: ltr; }
+  body.arabic .bg1 img {
+    transform: translateX(6rem) rotate(35deg); }
+
+body.arabic .bg2 img {
+  right: 0;
+  left: unset;
+  transform: translateY(-12rem); }
+
+body.arabic h2:not([data-text="welcome"]) {
+  text-align: right; }
+  body.arabic h2:not([data-text="welcome"])::before {
+    right: 0; }
+
+.khaltbeta-page .bg1 img {
+  left: 0;
+  max-width: 20vw; }
+
+.khaltbeta-page .contact::before, .khaltbeta-page .contact::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+.khaltbeta-page .contact::before {
+  aspect-ratio: 1;
+  width: 45vw;
+  z-index: -1;
+  transform: translateY(4rem) scale(-1);
+  background-image: url("../assets/images/all_pages/newBgs4.webp");
+  background-size: contain;
+  background-repeat: no-repeat; }
+  @media (max-width: 576px) {
+    .khaltbeta-page .contact::before {
+      transform: translateY(5rem) scale(-1); } }
+
+.khaltbeta-page .contact::after {
+  width: calc(min(15vw, 100px));
+  aspect-ratio: 0.5;
+  transform: translateY(4rem);
+  z-index: -1;
+  background-image: url("../assets/images/all_pages/newBgs3.webp");
+  background-size: contain;
+  background-repeat: no-repeat; }
+  @media (max-width: 576px) {
+    .khaltbeta-page .contact::after {
+      transform: translateY(6rem); } }
+
+body.roqeta-page h2:not([data-text="welcome"])::before {
+  background-image: url("../assets/images/channels/fashionHbg.webp"); }
+
+body.roqeta-page .box .episodes .ep .btns .specBtn {
+  background-color: #d6007e; }
+
+body.roqeta-page .btns.pp p {
+  color: var(--txt-clr); }
+
+@media (min-width: 1200px) {
+  body.roqeta-page .box .teasers .tea .txt::before {
+    background-image: url("../assets/images/shows/roQeta typing area-01.webp"); } }
+
+body.nazly-page h2:not([data-text="welcome"])::before {
+  background-image: url("../assets/images/channels/talentHbg.webp"); }
+
+body.nazly-page .box .episodes .ep .btns .specBtn {
+  background-color: #fdfe00;
+  color: var(--txt-clr); }
+
+body.nazly-page .btns.pp p {
+  color: var(--txt-clr); }
+
+@media (min-width: 1200px) {
+  body.nazly-page .box .teasers .tea .txt::before {
+    background-image: url("../assets/images/shows/nazly-typing-area.webp"); } }
+
+body.crime-page h2:not([data-text="welcome"])::before {
+  background-image: url("../assets/images/channels/dramaHbg.webp"); }
+
+body.crime-page .box .episodes .ep .btns .specBtn {
+  background-color: #1e5fab; }
+
+body.crime-page .btns.pp p {
+  color: var(--txt-clr); }
+
+@media (min-width: 1200px) {
+  body.crime-page .box .teasers .tea .txt::before {
+    background-image: url("../assets/images/shows/fantazya typing area-01.webp"); } }
+
+body.crime-page .box .teasers .tea:first-of-type h3::before {
+  transform: translate(-40%, -34%); }
+  @media (min-width: 1800px) {
+    body.crime-page .box .teasers .tea:first-of-type h3::before {
+      transform: translate(-84%, -32%);
+      padding: 13rem; } }
+
+.comccs {
+  max-height: 50vh; }
+
+body.rawy-page h2:not([data-text="welcome"])::before {
+  background-image: url("../assets/images/channels/rawyHbg.webp"); }
+
+body.rawy-page .box .episodes .ep .btns .specBtn {
+  background-color: #740f58; }
+
+body.rawy-page .btns.pp p {
+  color: var(--txt-clr); }
+
+@media (min-width: 1200px) {
+  body.rawy-page .box .teasers .tea .txt::before {
+    background-image: url("../assets/images/shows/Rawy Family typing area-01.webp"); }
+  body.rawy-page .box .teasers .tea:first-of-type .txt::before {
+    transform: translate(-74%, -26%);
+    padding: 12rem; } }
+
+@media (min-width: 1800px) {
+  body.rawy-page .box .teasers .tea:first-of-type h3::before {
+    transform: translate(-86%, -39%);
+    padding: 12rem !important; } }
+
+body.meha-page h2:not([data-text="welcome"])::before {
+  background-image: url("../assets/images/channels/islamophobiaHbg.webp"); }
+
+body.meha-page .box .episodes .ep .btns .specBtn {
+  background-color: #318f3a; }
+
+body.meha-page .btns.pp p {
+  color: var(--txt-clr); }
+
+@media (min-width: 1200px) {
+  body.meha-page .box .teasers .tea .txt::before {
+    background-image: url("../assets/images/shows/el mahya typing area-01.webp"); }
+  body.meha-page .box .teasers .tea:first-of-type .txt::before {
+    transform: translate(-75%, -26%);
+    padding: 12rem; } }
+
+@media (min-width: 1800px) {
+  body.meha-page .box .teasers .tea:first-of-type h3::before {
+    transform: translate(-84%, -37%);
+    padding: 13rem; } }
+
+.btns.pp {
+  flex-direction: column; }
+  .btns.pp p {
+    width: 200%;
+    transform: translateX(-25%); }
+/*# sourceMappingURL=Showwing2.css.map */

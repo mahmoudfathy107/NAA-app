@@ -1,0 +1,10 @@
+.para .container h2::before {
+  background-image: url("../assets/images/channels/kidsHbg.webp"); }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .kids-page .contact-form .container .box {
+    top: 143px !important; } }
+
+.kids-page .contact-form .container .box .form input.specBtn {
+  background-color: white !important; }
+/*# sourceMappingURL=Chan-kids.css.map */

@@ -1,0 +1,15 @@
+.para .container h2::before {
+  background-image: url("../assets/images/channels/newsHbg.webp"); }
+
+.news-page
+.contact-form
+.container
+.box
+.form
+input.specBtn {
+  top: 5px !important; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-form .container .box {
+    top: 141px !important; } }
+/*# sourceMappingURL=Chan-news.css.map */

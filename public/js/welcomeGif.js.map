@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["welcomeGif.js"],"sourcesContent":["/*\r\n\tvideo delays\r\n*/\r\n\r\ndocument.getElementById(\"gif\").addEventListener(\r\n  \"ended\",\r\n  (e) => {\r\n    // console.log(\"ended\");\r\n    setTimeout(() => {\r\n      document.getElementById(\"gif\").play();\r\n    }, 2000);\r\n  },\r\n  false\r\n);\r\n"],"file":"welcomeGif.js"}

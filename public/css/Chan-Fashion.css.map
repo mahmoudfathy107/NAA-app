@@ -1,0 +1,1 @@
+{"version":3,"sources":["Chan-Fashion.scss"],"names":[],"mappings":"AAAA;EACE,kEAAkE,EAAA","file":"Chan-Fashion.css","sourcesContent":[".para .container h2::before {\r\n  background-image: url(\"../assets/images/channels/fashionHbg.webp\");\r\n}\r\n"]}
